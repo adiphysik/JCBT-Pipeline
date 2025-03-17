@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Mon Mar 17 11:51:23 2025
-
-@author: aditya
-"""
-
 """
 main.py
 
