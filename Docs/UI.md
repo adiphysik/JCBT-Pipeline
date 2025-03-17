@@ -2,7 +2,7 @@
 
 The user interface (UI) of the pipeline is structured into three main sections as shown below:
 
-![Main UI of the Pipeline](../images/ui_main.png)
+![Main UI of the Pipeline](../Docs/Images/UI-2.jpg)
 
 
 ## 1. Preprocessing Section
@@ -27,13 +27,18 @@ The Run Photometry for All button executes the Aperture and PSF photometry proce
 ## Additional Features
 
 ### Show Map  
-Generates an interactive graphical representation of photometry for each frame, displaying sources with their coordinates and magnitude information.
+Generates an interactive graphical representation of photometry for each frame, displaying sources with their coordinates and magnitude information as shown below,
+
+![Show Map](../Docs/Images/Map.jpg)
+
+
+### Show Plot  
+Generates an FWHM vs. Unit Time plot for a particular observation night using all calibrated images as shown below,
+
+![Show Plot](../Docs/Images/FWHM.png)
 
 ### Help  
 Provides details on the functionality of each UI element.
 
 ### Show Files  
 Displays and grants access to the contents of the working folder.
-
-### Show Plot  
-Generates an FWHM vs. Unit Time plot for a particular observation night using all calibrated images.
