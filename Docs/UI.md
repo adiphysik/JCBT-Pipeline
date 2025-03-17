@@ -1,4 +1,4 @@
-# User Interface
+# User-Interface (UI)
 
 The user interface (UI) of the pipeline is structured into three main sections as shown below:
 
