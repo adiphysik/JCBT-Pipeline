@@ -1,11 +1,11 @@
 # Setup and Installation Guide
 
 ## Introduction
-This document provides step-by-step instructions to set up and install all dependencies required for running the **Photometric Reduction UI** pipeline. The pipeline is designed for automated photometric data reduction for data obtained from the 1.3m JCB telescope at VBO, Kavalur.
+This document provides step-by-step instructions to set up and install all dependencies required for running the **Photometric Reduction UI** pipeline. The pipeline is designed for automated photometric data reduction for data obtained from the 1.3m JCB Telescope at VBO, Kavalur.
 
 ## Prerequisites
 Ensure you have the following installed on your system:
-- **Operating System:** Linux/macOS (recommended) or Windows (limited IRAF support)
+- **Operating System:** Linux/macOS (recommended)
 - **Python Version:** Python 3.9 or later (recommended)
 - **Package Manager:** `pip` (for installing dependencies)
 
@@ -39,7 +39,7 @@ sudo apt-get install iraf
 ```bash
 pip install pyraf
 ```
-For Windows users, a manual IRAF installation is required. Follow the [IRAF installation guide](http://iraf.net/).
+For Linux, a manual IRAF installation may be required. Follow the [IRAF installation guide](https://iraf-community.github.io/install.html).
 
 ### 4. Verify Installation
 Run the following command to check if all required packages are installed correctly:
@@ -58,7 +58,7 @@ This will launch the **Photometric Reduction UI**.
 ## Troubleshooting
 - **IRAF-related errors:** Ensure IRAF is properly installed and accessible in your system path.
 - **GUI not opening:** Install Tkinter (`sudo apt-get install python3-tk`).
-- **Missing dependencies:** Run `pip install -r requirements.txt` (if available).
+- **Missing dependencies:** Run `pip install -r requirements.txt`.
 
 For further assistance, refer to the documentation or contact the author.
 
@@ -66,4 +66,4 @@ For further assistance, refer to the documentation or contact the author.
 **Author:** Aditya Bharadwaj  
 **Email:** adiphysik@gmail.com  
 **Version:** 2.0  
-**Date:** 14/03/2024  
+**Date:** 14/03/2025  
