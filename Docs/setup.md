@@ -58,4 +58,4 @@ This will launch the **Photometric Reduction UI**.
 ## Troubleshooting
 - **IRAF-related errors:** Ensure IRAF is properly installed and accessible in your system path.
 - **GUI not opening:** Install Tkinter (`sudo apt-get install python3-tk`).
-- **Missing dependencies:** Run `pip install -r requirements.txt`.
+- **Missing dependencies:** Run `pip install dependencies name`.
