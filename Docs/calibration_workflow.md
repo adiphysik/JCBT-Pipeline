@@ -3,6 +3,7 @@
 The reduction pipeline performs calibration of RAW astronomical images obtained from the 1.3m JCBT Telescope.
 The overall workflow of the calibration process is as shown below,
 
+![Calibration Workflow](../Docs/Images/calibration_workflow.png)
 
 
 ## 1) RAW Frame Selection
