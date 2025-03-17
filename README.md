@@ -1,17 +1,17 @@
-Photometric reduction UI:
+#Photometric reduction UI:
 
 The code aims to perform the photometric data reduction process for the data obtained from the 1.3 meter JCBT telescope at VBO, Kavalur.
 The code automatically performs all the steps involved in photometric reduction of the calibrated data including the Aperture and PSF photometry.
 The text file task_logs.log contains the logger information for debugging.
 
-Usage: python pipeline.py
+##Usage: python pipeline.py
 
-Dependencies: astropy, numpy, pyraf, photutils, IRAFStarFinder, logging, glob  
+##Dependencies: astropy, numpy, pyraf, photutils, IRAFStarFinder, logging, glob  
 Install astropy, numpy, photutils --> pip3 install astropy, numpy, photutils  
 Install matplotlib --> sudo apt-get install python3-matplotlib  
 IRAFStarFinder --> extraction algorithm to detect point-like sources  
 
-UI elements: The UI elements and their functions are given below,
+##UI elements: The UI elements and their functions are given below,
 
 INPUT FILE - It represents the desired calibrated input file to be selected.  
 OUTPUT FOLDER - It represents the desired output folder to store the output files.  
