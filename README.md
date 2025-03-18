@@ -4,7 +4,7 @@ The code aims to perform the photometric data reduction process for the data obt
 The code automatically performs all the steps involved in photometric reduction of the calibrated data including the Aperture and PSF photometry.
 The text file task_logs.log contains the logger information for debugging.
 
-## Usage: python main.py <dev/null
+## Usage: python3 main.py </dev/null
 
 ## Dependencies: astropy, numpy, pyraf, photutils, IRAFStarFinder, logging, glob  
 Install astropy, numpy, photutils --> pip3 install astropy, numpy, photutils  
