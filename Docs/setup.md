@@ -51,7 +51,7 @@ If no errors appear, the setup is complete.
 ## Running the Pipeline
 Once installed, navigate to the directory containing the pipeline and run:
 ```bash
-python3 main.py
+python3 main.py </dev/null
 ```
 This will launch the **Photometric Reduction UI**.
 
