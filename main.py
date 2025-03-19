@@ -6,9 +6,7 @@ It integrates different modules for calibration, photometry, and batch processin
 """
 
 # Importing necessary modules from the pipeline
-from pipeline.calibration import calibrate_images
-from pipeline.photometry import perform_photometry
-from pipeline.photometry_for_all import batch_photometry
+import pipeline
 
 def main():
     """Main function to execute the photometry pipeline."""
@@ -17,15 +15,7 @@ def main():
 
     # Step 1: Perform Calibration
     print("Performing image calibration...")
-    calibrate_images()
-
-    # Step 2: Perform Photometry on a single image
-    print("Performing photometry on a single image...")
-    perform_photometry()
-
-    # Step 3: Perform batch photometry on multiple images
-    print("Performing photometry on all images...")
-    batch_photometry()
+    pipeline()
 
     print("Pipeline execution complete!")
 
